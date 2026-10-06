@@ -1,4 +1,4 @@
 interface:
   display_name: "Pitch"
-  short_description: "Kanıta dayalı pitch, demo ve konuşma hazırlığı"
+  short_description: "Evidence-based pitches, demos and rehearsal"
   default_prompt: "Use $pitch to turn my product and verified evidence into a spoken pitch with slide cues and a rehearsal plan."

@@ -5,7 +5,7 @@ These inputs are fictional. Replace them with your own evidence before using the
 ## Investor pitch with early usage
 
 ```text
-Use $pitch to prepare a 90-second English investor pitch.
+Use the pitch skill to prepare a 90-second investor pitch.
 
 Product: a tool that turns weekly maintenance logs into a searchable equipment history.
 Audience: investors who understand industrial software, but don't know our workflow.
@@ -20,7 +20,7 @@ and the questions I should be ready to answer. Keep missing evidence explicit.
 ## Customer demo
 
 ```text
-Use $pitch to prepare a 3-minute Turkish customer demo.
+Use the pitch skill to prepare a 3-minute customer demo.
 
 Product: a scheduling tool for a small repair workshop.
 Customer job: see which mechanic can accept a new job without moving existing bookings.
@@ -35,7 +35,7 @@ Don't add a free pilot, a discount or a delivery promise.
 ## Keep a narrow request narrow
 
 ```text
-Use $pitch to revise only this opening for a nontechnical jury: [paste opening].
+Use the pitch skill to revise only this opening for a nontechnical jury: [paste opening].
 Keep the product facts, my voice and the existing presentation format.
 Return the revised opening and a brief explanation of the change.
 ```

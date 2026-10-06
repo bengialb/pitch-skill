@@ -1,94 +1,94 @@
 ---
 name: pitch
-description: Hazırla veya iyileştir — yatırımcı/jüri pitch'i, müşteri sunumu ve ürün demosu için konuşma metni, slayt akışı ve prova. Use for spoken startup pitches, pitch-deck narratives, demo scripts and delivery coaching; not generic marketing copy.
+description: Prepare or improve spoken startup pitches, investor and jury presentations, customer demos, pitch-deck narratives and rehearsal plans. Use for scripts, slide/demo cues and delivery coaching; not generic marketing copy.
 ---
 
 # Pitch
 
-Dinleyicinin ürünü anlamasını, kanıtı değerlendirmesini ve belirli bir sonraki adımı seçmesini sağlayan **söylenebilir** bir sunum hazırla. Kullanıcının dilini ve istediği çıktıyı koru.
+Prepare a presentation the user can **say aloud**, so the audience understands the product, assesses the evidence and chooses a specific next step. Preserve the user's requested language and deliverable.
 
-Bu skill, 03.10.2026'da bir LinkedIn listesindeki 20 bağlantının incelenmesinden türetildi. Kaynak kapsamı ve örnekler [references/source-notes.md](references/source-notes.md); yapı seçimi [references/structures.md](references/structures.md). Bunlar bir örnek havuzu, evrensel başarı formülü değil. Kaynakları yeniden araştırmak sıradan pitch hazırlığının önkoşulu değildir.
+The guidance draws on analysis of startup pitches, demos and launch presentations. See [source notes](references/source-notes.md) for observations and research limits, and [structures](references/structures.md) when choosing a narrative. These examples offer options, not a universal success formula. Repeating the source research is not a prerequisite for ordinary pitch preparation.
 
-## Önce sunumun işini belirle
+## Establish the presentation's job
 
-Mevcut sohbetten ve verilen materyalden dinleyici, süre, dil, ürünün mevcut durumu, kanıt ve istenen kararı çıkar. Gerçekten eksikse tek kısa turda en fazla üç kritik soruyu sor; kullanıcı aynı bilgiyi tekrar vermesin. Basit metin revizyonunu bütün bir görüşmeye çevirme. Yanıt beklerken kaynakları ve mevcut metni incele; cevap gerektiren iddiaları uydurma.
+Infer the audience, duration, language, current product status, evidence and desired decision from the conversation and supplied material. If essential information is missing, ask at most three critical questions in one short round. Don't make the user repeat known information or turn a simple revision into an interview. While waiting, review available sources and the draft; don't invent facts that depend on the answer.
 
-Dinleyicinin ne karar vereceğini bir cümleyle yaz:
+State the audience's intended decision in one sentence:
 
-- Yatırımcı: sonraki görüşme veya belirtilmiş yatırım talebi; ekonomik sonuç, büyüme ve neden bu ekip.
-- Jüri / hibe: kriterler, yapılabilirlik, yenilik, uygulama planı ve mevcut kanıt. Zorunlu formatı koru.
-- Müşteri: belirli bir işi ürünle yapma / pilotu değerlendirme; kullanım sonucu, geçiş çabası ve güven.
-- Lansman: ürünün anlaşılması ve denenmesi; gösterilebilir fayda ve erişim koşulları.
+- Investor: a follow-up meeting or a specified investment request; economics, growth and why this team.
+- Jury or grant panel: criteria, feasibility, novelty, implementation plan and current evidence. Preserve mandatory formats.
+- Customer: using the product for a specific job or evaluating a pilot; practical results, transition effort and trust.
+- Launch: understanding and trying the product; demonstrable benefits and access conditions.
 
-Kullanıcı talebi yoksa yatırım miktarı, ücretsiz pilot, indirim, teslim taahhüdü veya sözleşme şartı ekleme. Bir sunumu iyileştirmek ürün stratejisini değiştirme yetkisi değildir.
+Don't add an investment amount, free pilot, discount, delivery promise or contractual terms unless the user requests them. Improving a presentation doesn't authorize changing product strategy.
 
-## Anlatıyı kur
+## Build the narrative
 
-1. **Erken anlaşılabilirlik.** İlk kısa bölümde kim için ne yaptığımız anlaşılsın. Dinleyici terimi bilmiyorsa kişi → yaptığı iş → mevcut sıkıntı → görülebilir sonuç sahnesiyle açıklayıp ürüne bağla. Sektörün bütün tarihini anlatma.
-2. **Tek ana fikir.** Sunumdan sonra aktarılmasını istediğin bir cümleyi seç. Açılış ve kapanış farklı sözcüklerle aynı fikri taşısın; aradaki kanıt bu fikri desteklesin.
-3. **Kanıt sırası.** Güçlü kullanım/ticari kanıt varsa erken göster (GitLab). Kategori yabancıysa somut örnek → önce/sonra → mekanizma (Retool). Değer hareketle anlaşılıyorsa hızla demoya geç (Dropbox, Scrub Daddy). [Yapılar](references/structures.md) arasından bağlama uygun olanı seç; hepsini karıştırma.
-4. **Sebep zinciri.** Özellik → neyi mümkün kılıyor → müşteriye sonucu → neden inandırıcı. Örneğin “açık kaynak” tek başına avantaj değildir; hangi üretim/dağıtım avantajını yarattığını açıkla.
-5. **Ana itiraz.** Dinleyiciyi durduracak en önemli soruyu kanıtla ele al. Tüm olası itirazları ana metne yığma; ayrıntıyı Q&A'ya taşı.
-6. **Vizyonun dayanağı.** Bugünkü işten daha geniş hedefe geçerken aradaki mekanizmayı söyle. Lansman markasının uzun beklenti bölümünü kısa jüri pitch'ine aynen taşıma. Bilinen markaların sahne ayrıcalığını erken ürün için varsayma.
-7. **Kapanış.** Ana sonucu hatırlat, kullanıcı tarafından belirlenmiş tek sonraki adımı söyle. Talep bilinmiyorsa nötr kapanış kullan veya gerekli girdiyi işaretle.
+1. **Make the product understandable early.** The opening should establish what it does and for whom. If the audience doesn't know the terminology, use a person → their job → current difficulty → observable result, then connect it to the product. Avoid a history of the entire industry.
+2. **Choose one main idea.** Decide which sentence the audience should be able to repeat afterward. The opening and close express the same idea in different words; the evidence between them supports it.
+3. **Order the evidence for the situation.** Strong usage or commercial evidence can come early (GitLab). For an unfamiliar category, use a concrete example → before/after → mechanism (Retool). When motion explains the value, move quickly to the demo (Dropbox, Scrub Daddy). Select a suitable [structure](references/structures.md) rather than combining every pattern.
+4. **Explain the causal chain.** Feature → what it enables → customer result → why it is credible. For example, explain which production or distribution advantage open source creates; the label alone doesn't establish a benefit.
+5. **Address the main objection.** Use evidence to answer the question most likely to stop the audience. Move secondary objections into Q&A rather than crowding the script.
+6. **Ground the vision.** Explain the mechanism connecting today's work to a broader goal. Don't transplant an established brand's long anticipation sequence into a short jury pitch or assume its stage privileges apply to an early product.
+7. **Close with a next step.** Recall the main result and state the single action the user has chosen. If the ask is unknown, use a neutral close or identify the missing input.
 
-## Slayt ile sözün görevini ayır
+## Separate the slide's job from the script's job
 
-Slaytta bir iddia ve onu taşıyan görüntü/sayı olsun; konuşma bunun anlamını ve nedenini anlatsın. Mevcut tasarım/şablon ve zorunlu sayfa sayısını koru. Slayt sayısını konu başlıklarından değil anlatım bölümlerinden çıkar.
+Give each slide a claim and a supporting image or figure. The script explains its meaning and reasoning. Preserve the existing design, template and required page count. Derive slide count from narrative sections, not a list of topic headings.
 
-Her bölüm için şu dört şeyi birbirine bağla:
+Connect these elements for each section:
 
-| Söylenen | Gösterilen | Yapılan | Dinleyicinin çıkaracağı sonuç |
+| Spoken | Shown | Done | Audience takeaway |
 |---|---|---|---|
-| Tek anlaşılır cümle | Görsel kanıt / çıktı / karşılaştırma | İlgili işaret, tıklama veya bekleme | Bu kanıtın ana iddiaya etkisi |
+| One understandable sentence | Visual evidence, output or comparison | Relevant gesture, click or pause | How this evidence supports the main claim |
 
-Başlıklar “Problem / Solution / Market” gibi klasör adları yerine mümkünse o sayfanın sonucunu taşısın. Sayı gösterirken birimi, dönemi, tabanı ve ne ölçüldüğünü açıkla. Konuşmacı aynı anda grafik okutmasın, arayüz tıklamasın ve yoğun yeni bilgi vermesin.
+Where possible, use a headline that states the slide's conclusion rather than a folder label such as "Problem / Solution / Market." For every figure, explain the unit, period, base and measurement. Avoid asking the audience to read a chart while the speaker clicks through an interface and introduces dense new information.
 
-## Demo yazarken
+## Write a demo
 
-- Tek müşteri işi seç. Başlangıç koşulu → eylem → görünür sonuç → o sonucun anlamı sırasını kur.
-- Tıklamadan önce ne göreceğimizi söyle; çıktı belirince bakılacak alanı tarif et ve kısa bir okuma payı bırak.
-- Ana iddiaya uygun kanıt tasarla: hız için ölçülmüş aynı iş; doğruluk için beklenen/gerçek sonuç; kolaylık için gerçek işlem adımları. Süs animasyonu doğruluk kanıtı değildir.
-- Teknik açıklamayı katmanla: önce fayda ve gözlenebilir sonuç, sonra bunu açıklayan mekanizma. Teknik dinleyiciye gerekli ayrıntıyı ver; jüriden uzmanlık bekleme.
-- Özellik turunu aynı hikâyeyi ilerleten adımlarla sınırla. Ayrı deneyleri tek olgun ürünmüş gibi sunma; Figma yeniden anlatımındaki prototip bolluğunu kopyalama.
-- Canlı demo için kısa yedek bölüm yaz: onaylı kayıt veya açıkça etiketli önceden alınmış çıktı. Kesintide tek açıklama, bir yedek geçiş, hikâyeye dönüş. Önceden kaydedilmiş görüntüyü canlı diye anlatma.
+- Choose one customer job. Establish starting conditions → action → visible result → meaning of that result.
+- Before clicking, say what the audience will see. When the output appears, identify where to look and leave a short reading pause.
+- Match evidence to the claim: the same measured task for speed, expected versus actual results for accuracy, actual steps for ease of use. Decorative animation doesn't establish correctness.
+- Layer the technical explanation: benefit and observable result first, then the mechanism. Give technical audiences useful detail; don't assume a jury has specialist knowledge.
+- Limit the feature tour to steps that advance the same story. Don't present separate experiments as one mature product or copy the prototype overload in the Figma retrospective.
+- Prepare a short fallback for a live demo: an approved recording or clearly labeled saved output. If interrupted, give one explanation, switch once and return to the story. Don't describe a recording as live.
 
-## Konuşma ve prova
+## Speaking and rehearsal
 
-Metni makale dilinden ayır: kısa fiiller, açık özne, bir cümlede bir düşünce; nefesi zorlayan liste ve soyut isim zincirlerini böl. Samimi tonu koru; kullanıcıya ünlü kurucunun kişiliğini taklit ettirme.
+Write for speech: clear subjects, direct verbs and one thought per sentence. Break breathless lists and chains of abstract nouns. Preserve the user's voice instead of imitating a famous founder's personality.
 
-Geçişler yeni bölümün neden geldiğini açıklasın. “Peki bu nasıl çalışıyor?” gibi doğal cümleleri ihtiyaçta kullan; her slaytta aynı kalıbı tekrarlama. Vurgu/nefes işaretlerini az tut: `[kısa durak]`, `[çıktıyı göster]`, `[ana sayıda yavaşla]`. İddia ve sayıdan sonra işleme payı bırak. Mizahı kullanıcı tonuna ve sahneye uygunsa kullan; zorunlu şaka ekleme.
+Transitions should explain why the next section follows. Use natural questions such as "How does this work?" where helpful, without repeating the same transition on every slide. Keep delivery cues sparse: `[brief pause]`, `[show output]`, `[slow down on main figure]`. Allow processing time after claims and numbers. Use humor only when it suits the user and setting.
 
-Süre hesabı: sözcük sayısı / konuşma hızı + konuşmayla örtüşmeyen demo, durak ve geçişler. Ölçülmüş kişisel hızı tercih et. Yoksa başlangıç tahmini TR 110–125, EN 120–140 sözcük/dakika; bunlar skill'in prova varsayımlarıdır, araştırma sonucu veya kişisel hız ölçümü değildir. Demo sırasında söylenen sözleri konuşma ve ayrı demo süresi olarak çift sayma. Toplamı aralık ve **tahmini** etiketiyle ver; kesin sığdığını söyleme. Süre dolarsa kesilecek kısmı belirt; ürün tanımı, kanıt ve kapanışı koru.
+Estimate duration as word count / speaking rate + demo actions, pauses and transitions that don't overlap with speech. Prefer the speaker's measured rate. Otherwise, use an initial assumption of 120–140 words/minute for English; adapt for the language and speaker. These are rehearsal assumptions, not research findings or measured personal rates. Don't count speech during a demo both as speaking time and separate demo time. Give a range labeled **estimated** rather than promising it fits. Identify what to cut if time runs short, preserving the product definition, evidence and close.
 
-Kayıt varsa gerçek süreyi ve takılma noktalarını incele. Kayıt yoksa ses, jest, tempo veya dinleyici tepkisi gözlemlediğini iddia etme. Prova planı ile yapılmış provayı ayır.
+If a recording exists, inspect actual duration and stumbling points. Without one, don't claim to have observed voice, gestures, pace or audience reactions. Distinguish a rehearsal plan from a completed rehearsal.
 
-## Kanıt disiplini
+## Evidence discipline
 
-Her esaslı iddia için kaynak, tarih, birim/dönem, kapsam ve kullanılacak ifadeyi tut. Kullanıcının verdiği bilgiyi “kullanıcı beyanı” olarak izleyebilirsin; doğrulanmış dış veri gibi etiketleme.
+For each substantial claim, retain its source, date, unit/period, scope and intended wording. User-provided information may be labeled "user statement"; don't label it independently verified external data.
 
-İlgili belirsizliği ana metinde bir kez, karar için gereken yerde açıkla; tekrarlarını Q&A veya hazırlık notuna taşı. Eksik verinin yerine sürekli neyi iddia etmediğimizi anlatma. Sunumun ağırlığı gösterilen işe ve mevcut kanıta kalsın; ölçüm önerisini yapılmış sonuç veya onaylanmış plan gibi sunma.
+Explain each relevant uncertainty once in the main script, where it affects the decision. Move repeats into Q&A or preparation notes. Keep attention on the demonstrated work and available evidence instead of repeatedly listing what isn't claimed. Don't present a proposed measurement as an achieved result or an approved plan.
 
-- Ziyaretçi, kayıtlı hesap, aktif kullanıcı, pilot, müşteri ve gelir farklıdır. İşlem hacmi / müşteriye kazandırılan satış / şirket geliri de ayrı kavramlardır.
-- Büyümenin günlük/aylık/yıllık dönemini belirt; başlangıç/bitiş yoksa yüzdeden yeni taban üretme. Bir müşteri sonucunu bütün müşterilere genelleme.
-- Pilotun potansiyel değeri tahsil edilmiş gelir veya ARR değildir. Canlı/beta/planlanan ayrımını koru.
-- Örnek pitch rakamları sunucunun o tarihteki iddialarıdır; doğrulukları veya gelecekteki başarıyla nedensellikleri bu araştırmada ispatlanmadı.
-- Kanıt yoksa somut demo, mevcut ürün veya sınırları açıklanmış geri bildirimle çalış. Eksik geliri başarı diliyle gizleme; sayı, logo, alıntı, kurucu anısı veya başarı hikâyesi icat etme.
-- Projeye ait güncel talimatları, ürün planını ve ilgili kanıtları kullan; ürün kapsamı ve fiyatı bu skill'de sabitlenmez. Kullanıcının ürününü örnek şirketin kategorisine daraltma.
+- Visitors, registered accounts, active users, pilots, customers and revenue are different measures. Transaction volume, sales generated for customers and company revenue are also distinct.
+- State whether growth is daily, monthly or annual. Don't infer a base from a percentage without start and end values, or generalize one customer's result to all customers.
+- A pilot's potential value is not collected revenue or ARR. Preserve live, beta and planned status.
+- Figures in source pitches are the presenters' historical claims. This research didn't establish their accuracy or a causal relationship to later success.
+- When evidence is limited, use a concrete demo, the current product or feedback with its scope explained. Don't invent numbers, logos, quotes, founder anecdotes or success stories.
+- Read the project's current instructions, product plan and evidence. Product scope and pricing are not fixed in this skill. Don't narrow the user's product to an example company's category.
 
-## Çıktı ve son kontrol
+## Deliver and review
 
-İstenen kapsamı teslim et. Tam paket istenirse kısa anlatı kararı, söylenebilir metin, bölüm bazında slayt/demo eşlemesi, tahmini süre/kısaltma, önemli Q&A yanıtları ve iddia kaynakları/açık girdiler ver. Yalnız açılış, değerlendirme veya bir slayt istenmişse tüm paketi üretme. Q&A: önce doğrudan cevap, sonra kanıt/sınır, gerekiyorsa sonraki adım.
+Deliver the requested scope. For a full package, include the narrative choice, spoken script, section-by-section slide/demo mapping, estimated timing and cuts, important Q&A answers, and claim sources or missing inputs. If the request is only an opening, assessment or slide, don't generate the entire package. In Q&A, answer directly first, then give evidence or limits, followed by a next step if needed.
 
-Kontrol et:
+Check:
 
-- Konuya yabancı kişi ilk kısa bölümden ürünü ve kullanımını anlatabilir mi?
-- Ana iddianın görünür kanıtı var mı; örnek ile genelleme ayrılmış mı?
-- Her slayt hikâyeyi ilerletiyor mu; söz ile gösterilen çıktı eşleşiyor mu?
-- Teknik ayrıntı karara katkı veriyor mu?
-- Sürede durak/demo var mı; sesli okuma yapılmadıysa etiket doğru mu?
-- Talep kullanıcının amaç/yetkisiyle uyumlu mu; bilinmeyen ticari şart eklenmiş mi?
+- Can someone unfamiliar with the category explain the product and its use after the opening?
+- Does the main claim have visible evidence, with examples separated from generalizations?
+- Does every slide advance the story, with speech matched to what is shown?
+- Does technical detail help the audience decide?
+- Does the estimate include demo actions and pauses, with the right label if no spoken rehearsal occurred?
+- Does the ask fit the user's goal and authority, without adding unknown commercial terms?
 
-Değerlendirmede soyut puan veya “daha etkileyici ol” yerine **bölüm → somut sorun → dinleyiciye etkisi → düzeltme** ver. Metinden beden dili çıkarma.
+For critique, use **section → specific problem → audience impact → correction** instead of abstract scores or "make it more impressive." Don't infer body language from text.
 
-Skill uygulanması dış gönderim, yayın, canlı deck değişikliği veya ücretli medya üretimini kendiliğinden yetkilendirmez; mevcut kapsam/izinleri izle. Sunum dosyası istenirse ortamın uygun sunum aracını/becerisini kullan; bu skill anlatı ve teslim notlarını sağlar.
+Using this skill doesn't itself authorize external messages, publication, edits to a live deck or paid media production. Follow the user's scope and permissions. When a presentation file is requested, use an appropriate available presentation tool; this skill supplies the narrative and delivery notes.

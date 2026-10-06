@@ -1,159 +1,163 @@
-# Kaynak incelemesi — 03.10.2026
+# Source review: 03.10.2026
 
-Başlangıç: [Valeria Rozova-Rosenblatt'ın LinkedIn listesi](https://www.linkedin.com/feed/update/urn:li:activity:7511350486432718848). Listedeki 20 kısa bağlantı çözüldü; etiketler içerikle karşılaştırıldı. **20 tam pitch izlenmiş değildir.** 14 kayıtta video çözümlemesi veya konuşma metniyle anlatı incelendi; Ring'de yalnız pazarlık kesiti, Coinbase'de dolaylı kanıt bulundu. Mint, Yammer, Square ve Groupon'un özgün sunum kaydına erişilemedi.
+We checked 20 source links and compared their labels with the actual content. For 14 entries, we analyzed the narrative through video analysis or speech transcripts. Ring supplied only a negotiation excerpt, and Coinbase supplied indirect evidence. The original Mint, Yammer, Square and Groupon presentation recordings were inaccessible. This review did not include watching 20 complete pitches.
 
-Altyazı ve yerel transkripsiyon hata içerebilir. Sahne analizleri yorumlayıcıdır; tam ve doğrulanmış transkript sayılmaz. GitLab/Retool'un gerçek YC videoları yerel transkripsiyon ve karelerle; Figma/Dropbox TC50/Slack, YouTube konuşma metniyle incelendi. Scrub Daddy ve Dropbox erken demo için bağlı LinkedIn videosundan yerel konuşma metni çıkarıldı. Ring'in bağlı altyazısı okundu. Model 3/iPhone/The Point için erişilebilir konuşma metinleri kullanıldı. DoorDash/Cloudflare/Getaround/Roadster için kaynak başlığıyla uyumlu otomatik sahne çözümlemesi kullanıldı; ince beden dili veya kesin ses özellikleri çıkarılmadı.
+Captions and local transcriptions can contain errors. Scene analyses are interpretive, not complete verified transcripts. We examined the original GitLab and Retool YC videos through local transcription and frames; Figma, Dropbox TC50 and Slack through YouTube speech transcripts. We transcribed the linked Scrub Daddy and early Dropbox demo videos locally, read Ring's linked captions, and used accessible speech transcripts for Model 3, iPhone and The Point. For DoorDash, Cloudflare, Getaround and Roadster, we used automated scene analysis checked against the source identity; we did not infer subtle body language or precise vocal characteristics.
 
-Coinbase'in özel videosuna verilen otomatik çözümleme başka bir ürün anlatıyordu; **reddedildi**. Figma'nın otomatik çözümlemesi 16 dakikayı yaklaşık 50 saniyeye sıkıştırıp önemli demoları atladığı için zaman çizelgesinde **kullanılmadı**. iPhone/Model 3 otomatik analizleri başarısızdı; bunların yerine metin okundu. Bu ayrımlar sonraki kullanıcıya “hepsi izlendi” diye aktarılmaz.
+An automated analysis of the private Coinbase video described a different product and was rejected. Figma's automated analysis compressed 16 minutes to roughly 50 seconds and omitted major demos, so we did not use its timeline. Automated iPhone and Model 3 analyses failed; we read transcripts instead. Preserve these method distinctions when describing the research.
 
-Bu çalışma, sunucuların tarihî iddialarını doğrulayan bir şirket denetimi değildir. Şirketlerin sonradan başarıya ulaşması anlatım tekniğinin o başarıya neden olduğunu kanıtlamaz. Aşağıdaki “uyarlama” satırları araştırmacının editoryal çıkarımlarıdır.
+This research is not an audit of the presenters' historical claims. Later company success does not establish that presentation techniques caused it. The adaptation notes below are editorial interpretations.
 
-## 1. DoorDash — YC Demo Day
+## 1. DoorDash: YC Demo Day
 
-[Video](https://www.youtube.com/watch?v=YNAOXokK--o), [listelenen bağlantı](https://lnkd.in/e3k4u4c6). Yaklaşık 2:39; otomatik sahne analizi ve video kimliği kontrolü.
+[Video](https://www.youtube.com/watch?v=YNAOXokK--o), [original short link](https://lnkd.in/e3k4u4c6). Approximately 2:39; automated scene analysis and video identity check.
 
-**Gözlem:** İlk bölüm ürünün iki tarafını tanımlar. Ardından teslimatın her yerde çözülmediğini açıklayıp alternatiflerin boşluğunu gösterir. Sipariş/kurye işleyişini anlatır, operasyon ve büyüme iddialarıyla destekler; geniş lojistik hedefini sona taşır. Kapanış sonraki görüşmedir.
+**Observation:** The opening defines both sides of the product. It then explains a delivery context that remains unsolved and gaps in the alternatives. Ordering and courier operations precede operational and growth claims; the broader logistics goal comes later. The close asks for a follow-up meeting.
 
-**Uyarlama:** Dinleyicinin “zaten var” itirazını belirli bağlamla aç. Büyük hedefin önüne bugünkü işleyişin kanıtını koy. Restoranlar için üretilen satışın şirket geliri olmadığını koru.
+**Adaptation:** Address an "already exists" objection through a specific context. Put evidence of current operations before the bigger goal. Keep sales generated for restaurants separate from company revenue.
 
-## 2. Coinbase — prova videosu
+## 2. Coinbase: rehearsal video
 
-[Bağlı yazı](https://tremendous.blog/2024/03/27/watch-brian-armstrong-practice-for-yc-demo-day-in-2012/), [YC birincil kaynağı](https://www.ycombinator.com/blog/coinbase-from-yc-to-ipo). Yazıdaki `B_1XKxHk2vs` video kontrol tarihinde özeldi.
+[Article](https://tremendous.blog/2024/03/27/watch-brian-armstrong-practice-for-yc-demo-day-in-2012/), [YC primary source](https://www.ycombinator.com/blog/coinbase-from-yc-to-ipo). The article's video, `B_1XKxHk2vs`, was private on the review date.
 
-**Sınır:** Ses, sahne ve prova bizzat incelenemedi. Yazı, Bitcoin açıklamasını ve Paul Graham'ın büyümenin günlük olduğuna vurgu önerisini aktarıyor. YC, 2012'deki günlük kayıt büyümesini ayrıca doğruluyor.
+**Limit:** We could not directly examine the voice, stage delivery or rehearsal. The article describes an explanation of Bitcoin and Paul Graham's advice to stress that the growth figure was daily. YC also reports daily signup growth in 2012.
 
-**Uyarlama:** Yabancı kategoriyi sadeleştir; sayının şaşırtıcı yanı dönemiyse dönemi de söyle. Bu çıkarım dolaylı kanıta dayanır, videodaki teslim biçimini gözlemlediğimiz anlamına gelmez.
+**Adaptation:** Explain an unfamiliar category simply. If the period is what makes a number striking, state that period. This inference uses indirect evidence, not an observation of the video delivery.
 
-## 3. Figma — eski pitch'in yeniden anlatımı
+## 3. Figma: retrospective walkthrough of an early pitch
 
-[Video](https://www.youtube.com/watch?v=C1UUVdN3kdQ). 16:03; YouTube otomatik altyazısı.
+[Video](https://www.youtube.com/watch?v=C1UUVdN3kdQ). 16:03; YouTube automatic captions.
 
-**Gözlem:** Güncel konuşmada eski seed sunumu ve prototipler tekrar açılıyor. Yaklaşık 0:49'da ilham/amaç, 1:13'te araç sürtünmesi, 1:33'te WebGL demo, 3:12'den sonra çeşitli deneyler; 7:19–7:50'de parçaların henüz birleşmemiş oluşu, 9:48 sonrasında Q&A. Bu, 2013 yatırım görüşmesinin kesintisiz kaydı değil.
+**Observation:** A later talk revisits the old seed presentation and prototypes. Inspiration and purpose appear around 0:49, tool friction at 1:13, a WebGL demo at 1:33, and various experiments after 3:12. At 7:19–7:50, the speaker explains that the parts were not yet joined; Q&A follows after 9:48. This is not a continuous recording of the 2013 investment meeting.
 
-**Uyarlama:** Vizyonu çalışan teknik parçayla somutlaştır. Fakat çok prototip tek ürünün müşteri değerini bulanıklaştırabilir. Kaydın kendi geriye dönük eleştirisini de öğren; örneği yalnız övgü olarak sunma.
+**Adaptation:** Make a vision concrete with a working technical component. Too many prototypes can obscure one product's customer value. Retain the retrospective's own criticism rather than treating it only as a positive example.
 
-## 4. GitLab — YC W15
+## 4. GitLab: YC W15
 
-[Özgün kaynak](https://www.ycombinator.com/companies/gitlab), [YouTube kopyası](https://www.youtube.com/watch?v=HmrDjvv_ENQ). YC videosu 2:21; yerel transkripsiyon ve altı kare.
+[Original source](https://www.ycombinator.com/companies/gitlab), [YouTube copy](https://www.youtube.com/watch?v=HmrDjvv_ENQ). YC video 2:21; local transcription and six frames.
 
-**Gözlem:** Tanımın hemen ardından kullanım ve müşteri logoları gelir. Açık kaynak katkıcıları → özellik üretimi → küçük ekiple maliyet/fiyat → ticari sonuç zinciri kurulur. Slaytlarda kısa ifadeler, logo alanı, katkıcı karşılaştırması ve satış grafiği vardır. Sonunda tanım tekrar edilir; kurucuları salonda bulma yolu verilir.
+**Observation:** Usage and customer logos follow the definition immediately. The narrative connects open-source contributors → feature production → cost/pricing with a small team → commercial results. Slides carry short statements, logos, contributor comparisons and a sales chart. The close repeats the definition and explains how to find the founders in the room.
 
-**Uyarlama:** Güçlü kanıtı erken göster. Mimari özelliğin sonuç üreten mekanizmasını anlat. Kullanım sayısı, ödeme yapan logo grubu ve yıllıklandırılmış gelir ölçümünü birleştirme. Tarihî rakip iddiası bağımsız gerçek sayılmaz.
+**Adaptation:** Place strong evidence early. Explain the mechanism through which an architectural choice produces results. Keep usage counts, paying customer logos and annualized revenue separate. Historical competitor claims are not independently verified facts.
 
-## 5. Retool — YC W17
+## 5. Retool: YC W17
 
-[Özgün kaynak](https://www.ycombinator.com/companies/retool). 2:25; yerel transkripsiyon ve altı kare.
+[Original source](https://www.ycombinator.com/companies/retool). 2:25; local transcription and six frames.
 
-**Gözlem:** İlk tanımın ardından iç araç kavramı bir video onaylama işiyle açıklanır. Yaklaşık 0:22–0:45'te müşteri işi için maliyet/süre karşılaştırması; sonra ortak yapı taşlarının tekrar kullanım mekanizması gelir. Pazar, mevcut kullanım ve pilot anlatılır. Slaytlar bu karşılaştırmayı büyük, kısa metinlerle taşır. Kapanışta fayda ve kanıt özetlenir.
+**Observation:** After the initial definition, a video-approval task explains what an internal tool is. Around 0:22–0:45, the speaker compares cost and time for a customer job, then explains reuse of common building blocks. Market, existing usage and a pilot follow. Slides use large, short statements to support the comparison. The close summarizes benefit and evidence.
 
-**Uyarlama:** Jargonu örnekle aç; mekanizmayı müşteri sonucundan sonra anlat. Sunucunun bütün pazar için verdiği oranlar bağımsız doğrulanmadı. Pilot değeri gerçekleşmiş gelir değildir.
+**Adaptation:** Explain jargon through an example; place the mechanism after the customer result. The presenter's market-wide ratios were not independently verified. Potential pilot value is not realized revenue.
 
-## 6. Dropbox — TechCrunch50
+## 6. Dropbox: TechCrunch50
 
-[Video](https://www.youtube.com/watch?v=frsVoYyKpTk), [listelenen sayfa](https://echai.ventures/videos/dropbox-dropbox-launches-live-on-the-techcrunch50-stage). YouTube altyazısı ve sahne analizi.
+[Video](https://www.youtube.com/watch?v=frsVoYyKpTk), [source page](https://echai.ventures/videos/dropbox-dropbox-launches-live-on-the-techcrunch50-stage). YouTube captions and scene analysis.
 
-**Gözlem:** Çok bilgisayarda çalışma sürtünmesiyle açar. Yaklaşık 0:53'te demoya geçer; tanıdık klasörde değişiklik yapıp başka cihazdaki sonucu anlatır. 2:20–3:15 civarında gecikme/aksama vardır. Paylaşılan klasör ve fotoğraf örneklerinden sonra erişim duyuruları gelir. Q&A'da eşzamanlı düzenleme sınırı açıkça anlatılır.
+**Observation:** The opening establishes friction from working across computers. The demo starts around 0:53: the speaker changes something in a familiar folder and follows the result on another device. There are delays or interruptions around 2:20–3:15. Shared-folder and photo examples precede access announcements. Q&A explains limits around concurrent editing.
 
-**Uyarlama:** İzleyiciyi aynı nesnenin önce/sonrasına yönlendir. Kurulum ayrıntısıyla faydayı geciktirme. Yedek demo hazırla; bu kayıt kusursuz canlı demo örneği olarak sunulmaz.
+**Adaptation:** Direct attention to the before and after of the same object. Avoid delaying the benefit with setup details. Prepare a fallback; this recording is not an example of a flawless live demo.
 
-## 7–8. Mint ve Yammer — erişim sınırlı
+## 7–8. Mint and Yammer: limited access
 
-[Mint bağlantısı](https://techcrunch.com/2008/06/03/what-winning-techcrunch-40-did-for-mintcom/): sunucunun sonradan yazdığı etkinlik değerlendirmesi; özgün pitch kaydı erişilemedi.
+[Mint](https://techcrunch.com/2008/06/03/what-winning-techcrunch-40-did-for-mintcom/): a later event assessment by the presenter; the original pitch recording was inaccessible.
 
-[Yammer bağlantısı](https://techcrunch.com/2012/06/25/memory-lane-watch-the-moment-in-2008-when-yammer-launched-as-a-standalone-business/): geçmiş lansman yazısı; özgün demo kaydı erişilemedi.
+[Yammer](https://techcrunch.com/2012/06/25/memory-lane-watch-the-moment-in-2008-when-yammer-launched-as-a-standalone-business/): a retrospective launch article; the original demo recording was inaccessible.
 
-Bu iki örnek için açılış süresi, jest, tempo, slayt geçişi veya pitch sırası çıkarılmadı; skill kurallarının dayanağı yapılmadı.
+We did not infer opening duration, gestures, pace, slide transitions or pitch sequence from these entries, and did not use them as foundations for the skill's rules.
 
-## 9. Cloudflare — Disrupt SF 2010
+## 9. Cloudflare: Disrupt SF 2010
 
-[Birincil etkinlik kaydı](https://techcrunch.com/video/cloudflare-startup-battlefield-demo-at-disrupt-sf-2010/), [video](https://www.youtube.com/watch?v=711BkXJ0-Co). Otomatik sahne analizi; video başlığı kontrolü.
+[Primary event record](https://techcrunch.com/video/cloudflare-startup-battlefield-demo-at-disrupt-sf-2010/), [video](https://www.youtube.com/watch?v=711BkXJ0-Co). Automated scene analysis and video-title check.
 
-**Gözlem:** Başta teknik geçiş sorunu vardır; anlatı yeniden yaklaşık 3:08'de başlar. Büyük sitelerin hız/güvenlik imkânları küçük site ihtiyacına bağlanır. Kontrol paneli ve ilgili işlem gösterilir. Teknik mimari açıklaması daha sonra gelir ve genel faydaya geri çevrilir. Kullanım ve lansman çağrısı sona eklenir.
+**Observation:** A technical transition issue occurs at the start; the narrative restarts around 3:08. The speed and security capabilities of large sites connect to the needs of small sites. The control panel and relevant operation are shown. Architecture comes later and is translated back into a general benefit. Usage and a launch invitation come near the end.
 
-**Uyarlama:** Önce iş sonucu, sonra mimari; dinleyiciye göre teknik katman. Kesintiler örneğin parçasıdır. Performans/güvenlik yüzdeleri tarihî sunucu iddialarıdır; bugünün garantisi veya bağımsız doğrulama değildir.
+**Adaptation:** Explain the practical result before the architecture, adjusting technical depth for the audience. The interruptions are part of the example. Performance/security percentages are historical presenter claims, not current guarantees or independent verification.
 
-## 10. Getaround — Startup Battlefield
+## 10. Getaround: Startup Battlefield
 
-[Birincil etkinlik kaydı](https://techcrunch.com/video/getaround-car-sharing-startup-battlefield-presentation/), [video](https://www.youtube.com/watch?v=70YdTfEqVrY). Otomatik sahne analizi; video başlığı kontrolü.
+[Primary event record](https://techcrunch.com/video/getaround-car-sharing-startup-battlefield-presentation/), [video](https://www.youtube.com/watch?v=70YdTfEqVrY). Automated scene analysis and video-title check.
 
-**Gözlem:** Atıl araç problemi ve iki tarafın faydası tanımlanır. Araç seçme/kiralama akışı gösterilir. Telefonla erişim, donanım ve sigorta ayrı duyurularla anlatılır; sonunda sahnedeki otomobilin kilit eylemi gösterilir. Q&A erişim ve güven sorularına döner.
+**Observation:** The presentation defines the idle-car problem and benefits to both sides. It demonstrates choosing and renting a car. Phone access, hardware and insurance appear as separate announcements; the close includes a lock action on the car on stage. Q&A returns to access and trust.
 
-**Uyarlama:** Ana engeli bir cümleyle geçiştirmek yerine ürün akışı ve kanıtla çöz. Kapanıştaki fiziksel sonuç akılda kalabilir. Senaryo bazlı gelecek büyüklüğünü bugünkü sonuç diye söyleme.
+**Adaptation:** Address the main obstacle through a product flow and evidence. A physical result at the close may be memorable. Don't describe scenario-based future scale as an achieved result.
 
-## 11. Square — erişim sınırlı
+## 11. Square: limited access
 
-[Bağlantı](https://techcrunch.com/2010/05/26/dorsey-takes-money/): ürün gösterimi yazısı; özgün video erişilemedi. Sunucunun teslim biçimi veya demo sırası hakkında çıkarım yapılmadı; skill'e dayanak eklenmedi.
+[Article](https://techcrunch.com/2010/05/26/dorsey-takes-money/): a product demonstration article; the original video was inaccessible. We made no inference about delivery or demo order and added no skill rule based on it.
 
-## 12. Scrub Daddy — açılış kesiti
+## 12. Scrub Daddy: opening excerpt
 
-[Bağlı LinkedIn videosu](https://www.linkedin.com/posts/entrepreneurial-student_entrepreneurialstudent-studententrepreneur-activity-7392470877159878656-1pRV). Yaklaşık 1:43; bağlı altyazı ve yerel transkripsiyon. Tam pazarlık bölümü yok.
+[Video excerpt](https://www.linkedin.com/posts/entrepreneurial-student_entrepreneurialstudent-studententrepreneur-activity-7392470877159878656-1pRV). Approximately 1:43; linked captions and local transcription. The full negotiation is absent.
 
-**Gözlem:** Ürün tanıtımı ve yatırım talebinden sonra sıcak/soğuk suyla davranış farkı anlatılır. Ağırlık altında değişim, kir temizleme, durulama ve biçimin kullanım işlevleri sırayla gösterilir. İddianın hemen arkasına görülebilir bir karşılaştırma koyar.
+**Observation:** Product introduction and investment request precede a demonstration of different behavior in warm and cold water. Changes under weight, cleaning, rinsing and the shape's practical uses appear in sequence. A visible comparison follows each claim.
 
-**Uyarlama:** Soyut özellik yerine iddiayı sınayan gösterim tasarla. Kimyasal/çizmez gibi performans iddiaları burada yalnız sunucunun beyanıdır. Kesitte bulunmayan ticari cevap veya yatırım sonucu ekleme.
+**Adaptation:** Design a demonstration that tests the claim. Chemical or scratch-resistance performance claims remain the presenter's statements here. Don't add commercial answers or investment outcomes absent from the excerpt.
 
-## 13. DoorBot / Ring — yalnız pazarlık kesiti
+## 13. DoorBot / Ring: negotiation excerpt only
 
-[Bağlantı](https://www.linkedin.com/videos/mrssusanpavan_the-standoff-over-a-billion-dollar-activity-7490361589192368129-tsoH). Bağlı altyazı yaklaşık 55 saniye.
+[Video excerpt](https://www.linkedin.com/videos/mrssusanpavan_the-standoff-over-a-billion-dollar-activity-7490361589192368129-tsoH). Linked captions cover approximately 55 seconds.
 
-**Gözlem:** Açılış ve demo yerine teklif/karşı teklif yer alır. Siminoff, royalty'nin yeniden yatırım için gereken parayı azaltacağını söyler; alternatif finansman yapısını konuşur ve teklifi reddeder.
+**Observation:** The excerpt contains offers and counteroffers rather than an opening or demo. Siminoff explains that a royalty would reduce money needed for reinvestment, discusses another financing structure and rejects the offer.
 
-**Uyarlama:** Q&A'da itirazı ekonomiye bağlayarak doğrudan cevaplamak. Açılış/demoya ilişkin ders çıkarılamaz. Bu kesit kullanıcı adına finansman tercihi yapmak için talimat değildir.
+**Adaptation:** Answer an objection directly in Q&A by connecting it to economics. This excerpt doesn't support lessons about the opening or demo, and it doesn't authorize choosing financing terms for the user.
 
-## 14. Groupon — IPO roadshow, erişim sınırlı
+## 14. Groupon: IPO roadshow, limited access
 
-[Listelenen yazı](https://techcrunch.com/2011/10/21/video-tie-wearing-groupon-ceo-andrew-mason-pitches-ipo-to-investors/): eski roadshow adresi erişilemedi; yazı erişilebilir.
+[Article](https://techcrunch.com/2011/10/21/video-tie-wearing-groupon-ceo-andrew-mason-pitches-ipo-to-investors/): the old roadshow address was inaccessible; the article was available.
 
-Sunumun anlatımı, ses ve slayt sırası hakkında doğrudan çıkarım yapılmadı; skill dayanağı değil.
+We made no direct inference about narrative delivery, voice or slide order and did not use it as a skill foundation.
 
-## 15. Tesla Roadster — lansman haberi ve röportaj
+## 15. Tesla Roadster: launch report and interview
 
-[Video](https://www.youtube.com/watch?v=Mc8aOgUI-6Y). Otomatik sahne analizi; liste “pitch” diyor fakat görüntü haber/röportaj formatında.
+[Video](https://www.youtube.com/watch?v=Mc8aOgUI-6Y). Automated scene analysis; the source label says "pitch," but the footage is a news/interview format.
 
-**Gözlem:** Sürüş görüntülerine ürün hakkında sorular ve kurucu cevapları eşlik eder. Performans ile elektrikli olmayı aynı ürünün faydasına bağlar. İlk pahalı ürünün daha ulaşılabilir araçları finanse etme anlatısı bulunur.
+**Observation:** Driving footage accompanies product questions and founder answers. Performance and electric propulsion connect to the same product benefit. The narrative describes an expensive first product financing more accessible vehicles.
 
-**Uyarlama:** Algılanan ödünleşimi görülebilir ürün sonucu üzerinden anlat. Bu kaynak sahnede yapılan kesintisiz pitch veya yatırımcı deck'i örneği değildir; tarihî ürün vaatleri bağımsız doğrulanmadı.
+**Adaptation:** Explain a perceived trade-off through an observable product result. This isn't a continuous stage pitch or investor deck; historical product promises were not independently verified.
 
-## 16. iPhone — Macworld 2007
+## 16. iPhone: Macworld 2007
 
-[Listelenen video](https://www.youtube.com/watch?v=VQKMoT-6XSg), [zaman işaretli konuşma metni](https://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/comment-page-1/). Video analizine erişilemedi; metin incelendi.
+[Video](https://www.youtube.com/watch?v=VQKMoT-6XSg), [timestamped speech transcript](https://www.european-rhetoric.com/analyses/ikeynote-analysis-iphone/transcript-2007/comment-page-1/). Video analysis was unavailable; we examined the transcript.
 
-**Gözlem:** iPhone bölümü yaklaşık 26:22'de başlar; bütün keynote'un başlangıcı değildir. Üç tanıdık kullanım tekrar edilerek tek üründe birleşir. Mevcut telefonların sabit kontrol sorunu çözümün gerekçesi yapılır. Teknik özellikler kullanıcı etkisine bağlanıp ardından gösterim gelir.
+**Observation:** The iPhone segment begins around 26:22, not at the start of the keynote. Three familiar uses are repeated and combined into one product. Fixed controls on existing phones establish the reason for the solution. Technical features connect to user effects and then demonstrations.
 
-**Uyarlama:** Az sayıdaki tanıdık fikir ve kontrollü tekrar anlayışı kolaylaştırabilir. Uzun lansman yapısını kısa pitch süresine dayatma. Metindeki durak notları teslim ipucu sağlar; görüntü görülmeden beden dili iddiası kurulmaz.
+**Adaptation:** A few familiar ideas and controlled repetition can aid understanding. Don't force a long launch format into a short pitch. Transcript pause notes offer delivery cues; without examining footage, don't infer body language.
 
-## 17. Model 3 — misyon ve ürün
+## 17. Model 3: mission and product
 
-[Listelenen arşiv/metin](https://elonmuskarchive.org/video/tesla-model-3-unveiling-2016-03-31), [Tesla kaydı](https://www.youtube.com/watch?v=Q4VGQPk2Dl8). Otomatik video analizi başarısız; arşiv metni incelendi.
+[Archive/transcript](https://elonmuskarchive.org/video/tesla-model-3-unveiling-2016-03-31), [Tesla recording](https://www.youtube.com/watch?v=Q4VGQPk2Dl8). Automated video analysis failed; we examined the archive transcript.
 
-**Gözlem:** Misyon → önceki araçların gösterdiği imkân → bu aşamaların yeni ürünü finanse etmesi → ürün → şarj/servis/üretim engelleri → fiyat/erişim → deneme/sipariş. Geçmiş aşamalar yeni hedefin gerekçesi olur.
+**Observation:** Mission → what earlier vehicles made possible → those stages financing the new product → product → charging/service/production obstacles → price/access → trial/order. Earlier stages establish the reasoning for the next goal.
 
-**Uyarlama:** Büyük hedefi “bir gün yapacağız” yerine aşamalar ve imkânlarla bağla. Gelecek vaatlerini gerçekleşmiş sonuçlardan ayır. Tarihî çevre, kapasite ve ürün rakamlarının doğruluğu bu çalışmanın konusu değil.
+**Adaptation:** Connect a broader goal through stages and capabilities. Separate future promises from achieved results. Historical environmental, capacity and product figures were outside this research's verification scope.
 
-## 18. Slack — ticari anlatım filmi
+## 18. Slack: commercial product film
 
-[Video](https://www.youtube.com/watch?v=B6zVzWU95Sw), [listelenen sayfa](https://startupistanbul.com/videos/watch/so-yeah-we-tried-slack/). 2:20; YouTube altyazısı ve sahne analizi.
+[Video](https://www.youtube.com/watch?v=B6zVzWU95Sw), [source page](https://startupistanbul.com/videos/watch/so-yeah-we-tried-slack/). 2:20; YouTube captions and scene analysis.
 
-**Gözlem:** Ekip eski düzenin yeterli olduğunu söyler; e-posta/mesaj/ayrı kanalların küçük sürtünmeleri görünür olur. Ürün yeni çalışma düzeniyle anlatılır. Birden fazla ses farklı kullanım sonuçlarını taşır; sonunda baştaki iletişim iddiasına dönülür.
+**Observation:** The team says the old arrangement is adequate; small frictions across email, messages and separate channels become visible. The product introduces a new working arrangement. Multiple voices convey different practical results, and the close returns to the opening communication claim.
 
-**Uyarlama:** Mevcut düzene bağlı müşterinin kendi işindeki sürtünmeyi fark etmesini sağla. Bu kurgulanmış ticari film gerçek kullanıcı röportajı, kurucu pitch'i veya bağımsız ticari kanıt değildir.
+**Adaptation:** Help a customer attached to their current setup recognize friction in their own work. This staged commercial film isn't an independent customer interview, founder pitch or commercial proof.
 
-## 19. Dropbox — erken ekran demosu
+## 19. Dropbox: early screen demo
 
-[Sequoia'nın paylaştığı video](https://www.linkedin.com/posts/sequoia_heres-the-viral-video-drew-houston-and-arash-activity-7283177970087686144-GVSu). 4:39; bağlı videodan yerel transkripsiyon.
+[Video shared by Sequoia](https://www.linkedin.com/posts/sequoia_heres-the-viral-video-drew-houston-and-arash-activity-7283177970087686144-GVSu). 4:39; local transcription of the linked video.
 
-**Gözlem:** Kısa tanım ve farkın ardından hesap bağlama/senkronizasyon gösterilir. Aynı dosyanın cihazlar arasında değişmesi, silinenin geri gelmesi ve paylaşma eylemleri konuşmayı taşır. Mekanizma ayrıntısı görünür değişimden sonra gelir; kapanış beta kaydıdır.
+**Observation:** A short definition and distinction precede account linking and synchronization. The narrative follows the same file changing across devices, a deleted item being restored and sharing actions. Mechanism detail comes after visible changes; the close invites beta registration.
 
-**Uyarlama:** Ürünü arayüz etiketleriyle değil yapılan iş ve görülen sonuçla anlat. Verimlilik için verilen tek dosya örneği bütün dosyalara genellenmez. Erken demo ile sahnedeki TC50 kaydı ayrı örneklerdir.
+**Adaptation:** Explain the product through jobs and observable results. Don't generalize one file example to every file. The early screen demo and the TC50 stage recording are separate examples.
 
-## 20. The Point / Andrew Mason — geriye dönük ders konuşması
+## 20. The Point / Andrew Mason: retrospective lessons
 
-[Konuşma metni](https://jacquesmattheij.com/startup-school-2010/andrew-mason/). Startup School 2010; gerçek erken yatırım pitch'inin kesintisiz kaydı değil.
+[Speech transcript](https://jacquesmattheij.com/startup-school-2010/andrew-mason/). Startup School 2010; not a continuous recording of the early investment pitch.
 
-**Gözlem:** Mason geniş The Point vizyonunu, Groupon'un dar ve anlaşılır kullanımına karşı değerlendiriyor. Görseller, kişisel hata anlatımı, mizah ve Q&A kullanıyor. Eski vizyonun yararlı işe dönüşmemiş olmasını kendi eleştirisiyle açıklıyor.
+**Observation:** Mason evaluates the broad The Point vision against Groupon's narrow, understandable use case. The talk uses visuals, personal accounts of mistakes, humor and Q&A. His own criticism explains how the old vision failed to become useful work.
 
-**Uyarlama:** Soyut vizyonu somut ilk işle sınamayı öğretir. Kullanıcıya Mason'ın yaşanmış deneyimini ödünç kurucu anısı olarak yazma. Bu örnek erken pitch'in başarı kanıtı değil; anlatıyı sorgulamak için karşı örnek.
+**Adaptation:** Test an abstract vision against a concrete first job. Don't lend the user Mason's experience as an invented founder anecdote. This example questions a narrative rather than proving an early pitch's success.
 
-## Tekniği taşırken korunacak ayrımlar
+## Distinctions to retain
 
-**Teknik / kanıt / yorum** ayrı kalır: kısa ürün tanımı bir anlatım tekniği; müşteri veya ölçüm bir kanıt; “bunu burada erken göstermek daha etkili olur” editoryal yorumdur. Kaynak erişim ve metin sınırları, örneklerin bilinen isimleriyle kapatılmaz. Ses temposu, jest veya seyirci etkisi hakkında yalnız gerçekten incelenen kaydın desteklediği kadar konuşulur.
+Keep **technique / evidence / interpretation** separate: a short product definition is a technique, a customer or measurement is evidence, and placing that evidence earlier is an editorial choice. Familiar company names don't erase source access or transcript limits. Claims about pace, gesture or audience effects must stay within what the examined material supports.
+
+## Collection credit
+
+The initial source collection was shared by [Valeria Rozova-Rosenblatt](https://www.linkedin.com/feed/update/urn:li:activity:7511350486432718848). The observations and adaptations above are our analysis of the linked material.
